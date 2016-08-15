@@ -1,0 +1,12 @@
+{
+  "name": "file-upload-stream-factory",
+  "version": "0.0.1",
+  "description": "Busboy Pipe File Uploader",
+  "typings": "./js/index.d.ts",
+  "scripts": {},
+  "author": "Wen Chang",
+  "license": "MIT",
+  "dependencies": {
+    "busboy-pipe": "git+https://github.com/wchang28/busboy-pipe.git"
+  }
+}
