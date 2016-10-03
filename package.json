@@ -1,6 +1,6 @@
 {
   "name": "file-upload-stream-factory",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Busboy Pipe File Uploader",
   "main": "./js/index.js",
   "typings": "./js/index.d.ts",
@@ -8,6 +8,9 @@
   "author": "Wen Chang",
   "license": "MIT",
   "dependencies": {
+    "@types/express": "^4.0.33",
+    "@types/mkdirp": "^0.3.29",
+    "@types/node": "^6.0.41",
     "busboy-pipe": "git+https://github.com/wchang28/busboy-pipe.git",
     "mkdirp": "^0.5.1"
   }
