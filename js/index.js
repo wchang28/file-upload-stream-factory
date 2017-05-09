@@ -1,7 +1,8 @@
 "use strict";
-var fs = require('fs');
-var path = require('path');
-var mkdirp = require('mkdirp');
+Object.defineProperty(exports, "__esModule", { value: true });
+var fs = require("fs");
+var path = require("path");
+var mkdirp = require("mkdirp");
 function get(options) {
     return (function (params) {
         var filePath = null;
